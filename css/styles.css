@@ -239,7 +239,7 @@ a[href="tel:+11(000)111-11-11"]:focus {
 /* END OF PORTFOLIO MAIN MENU STYLES */
 /* SERVICES MENU STYLES */
 .services-menu-item {
-  border-color: 1px var(--CORNFLOWER);
+  border: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
 }
 .services-menu {
