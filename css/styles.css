@@ -238,14 +238,19 @@ a[href="tel:+11(000)111-11-11"]:focus {
 }
 /* END OF PORTFOLIO MAIN MENU STYLES */
 /* SERVICES MENU STYLES */
-.services-menu-item {
-  border: 1px solid var(--CORNFLOWER);
-  background-color: var(--WHITE);
-}
 .services-menu {
   justify-content: center;
   gap: 24px;
   flex-wrap: wrap;
 }
+.services-menu-item {
+  border: 1px solid var(--CORNFLOWER);
+  background-color: var(--WHITE);
+}
+.services-menu-title,
+.services-menu-description {
+  padding-left: 15px;
+}
+
 /* END OF SERVICES MENU STYLES */
 /* END OF PORTFOLIO STYLES */
