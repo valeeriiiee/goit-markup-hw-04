@@ -6,8 +6,12 @@
   --SLATE: #434455;
   --CORNFLOWER: #e7e9fc;
   --OCEAN: #404bbf;
+  --LIGHT-SLATE: #8e8f99;
+  --GREY: rgba(46, 47, 66, 0.7);
 }
-
+* {
+  box-sizing: border-box;
+}
 /* GENERAL STYLES */
 body {
   font-family: "Roboto", sans-serif;
@@ -39,6 +43,9 @@ body {
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+.icon {
+  fill: black;
 }
 /* END OF GENERAL STYLES */
 
@@ -140,23 +147,23 @@ a[href="tel:+11(000)111-11-11"]:focus {
   background-color: var(--SLATE);
 }
 /* END OF FIRST SECTION STYLES */
-/* VISSION MISSION STYLES */
-.vission-mission-header {
+/* ADVANTAGES STYLES */
+.advantages-header {
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.4px;
   color: var(--NAVY-BLUE);
 }
-.vission-mission-description {
+.advantages-description {
   color: var(--SLATE);
   font-size: 16px;
   font-weight: 400;
   letter-spacing: 0.32px;
 }
-.vission-mission {
+.advantages {
   flex-direction: column;
 }
-.vission-mission .list {
+.advantages .list {
   justify-content: center;
   gap: 24px;
 }
@@ -232,9 +239,12 @@ a[href="tel:+11(000)111-11-11"]:focus {
   font-family: "Roboto", sans-serif;
   gap: 24px;
 }
-.portfolio-menu-button:hover {
+.portfolio-menu-button:hover,
+.portfolio-menu-button:focus {
   background-color: var(--OCEAN);
   color: var(--WHITE);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
+    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 /* END OF PORTFOLIO MAIN MENU STYLES */
 /* SERVICES MENU STYLES */
@@ -246,6 +256,11 @@ a[href="tel:+11(000)111-11-11"]:focus {
 .services-menu-item {
   border: 1px solid var(--CORNFLOWER);
   background-color: var(--WHITE);
+}
+.services-menu-item:hover {
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .services-menu-title,
 .services-menu-description {
