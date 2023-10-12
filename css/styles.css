@@ -166,6 +166,10 @@ a[href="tel:+11(000)111-11-11"]:focus {
   justify-content: center;
   gap: 24px;
 }
+.advantages-icon {
+  background-color: var(--CLOUD);
+  padding: 24px 100px;
+}
 /* END OF VISSION MISSION STYLES */
 /* WHAT ARE WE DOING SECTION STYLES*/
 .subheader {
