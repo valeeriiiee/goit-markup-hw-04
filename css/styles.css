@@ -7,7 +7,7 @@
   --CORNFLOWER: #e7e9fc;
   --OCEAN: #404bbf;
   --LIGHT-SLATE: #8e8f99;
-  --GREY: rgba(46, 47, 66, 0.7);
+  --GREY: #2e2f42b2;
 }
 * {
   box-sizing: border-box;
@@ -113,7 +113,9 @@ a[href="tel:+11(000)111-11-11"]:focus {
 /* END OF HEADER STYLES */
 /* FIRST SECTION STYLES */
 .hero {
-  background-image: url(../images/people-office.jpg);
+  /* background-image: linear-gradient(var(--GREY)),
+    url("../images/people-office.jpg"); */
+  background-image: url("../images/people-office.jpg");
   background-size: cover;
   text-align: center;
   padding-top: 188px;
