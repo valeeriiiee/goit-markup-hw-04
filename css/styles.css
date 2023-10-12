@@ -169,6 +169,7 @@ a[href="tel:+11(000)111-11-11"]:focus {
 .advantages-icon {
   background-color: var(--CLOUD);
   padding: 24px 100px;
+  border-radius: 4px;
 }
 /* END OF VISSION MISSION STYLES */
 /* WHAT ARE WE DOING SECTION STYLES*/
@@ -198,12 +199,50 @@ a[href="tel:+11(000)111-11-11"]:focus {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-
+.team-socials-list {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.team-socials {
+  background-color: var(--IRIS);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-bottom: 32px;
+}
+.team-socials svg {
+  fill: white;
+}
 /* END OF OUR TEAM SECTION STYLES */
+/* CUSTOMER SECTION STYLES */
+.customers {
+  margin-bottom: 120px;
+}
+.customers-list {
+  gap: 24px;
+}
+.customers-list-item {
+  width: 168px;
+  border: 1px solid var(--LIGHT-SLATE);
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 16px 32px;
+}
+.customers-link svg {
+  fill: var(--LIGHT-SLATE);
+}
+/* END OF CUSTOMER SECTION STYLES */
 /* FOOTER STYLES */
 .footer {
   background-color: var(--NAVY-BLUE);
   padding: 100px 0px 100px 156px;
+  display: flex;
 }
 .logo-footer {
   color: var(--CLOUD);
@@ -217,6 +256,35 @@ a[href="tel:+11(000)111-11-11"]:focus {
 }
 .p-footer {
   color: var(--CLOUD);
+}
+.social-media-title {
+  color: var(--WHITE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.32px;
+  text-align: ;
+  margin-left: 120px;
+  margin-top: 0;
+}
+.social-media-list {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  margin-left: 120px;
+  gap: 16px;
+}
+.social-media-icon {
+  background-color: var(--IRIS);
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.social-media-icon svg {
+  fill: white;
 }
 /* END OF FOOTER STYLES */
 /* END OF STUDIO STYLES */
